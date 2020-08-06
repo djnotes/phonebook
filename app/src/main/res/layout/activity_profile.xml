@@ -16,54 +16,8 @@
         android:layout_height="100dp"
         android:src="@drawable/halcyon"
         android:scaleType="center"
-        android:id="@+id/bird1"
+        android:id="@+id/profilePicture"
         />
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/halcyon"
-        android:scaleType="center"
-        android:id="@+id/bird2"
-        />
-        <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/halcyon"
-        android:scaleType="center"
-            android:id="@+id/bird3"
-
-            />
-        <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/halcyon"
-        android:scaleType="center"
-            android:id="@+id/bird4"
-
-            />
-        <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/halcyon"
-        android:scaleType="center"
-            android:id="@+id/bird5"
-        />
-        <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/halcyon"
-        android:scaleType="center"
-            android:id="@+id/bird6"
-
-            />
-        <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/halcyon"
-        android:scaleType="center"
-            android:id="@+id/bird7"
-
-            />
 
     <TextView
         android:layout_width="wrap_content"
@@ -74,8 +28,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/show_info"
-        android:id="@+id/showInfo"
+        android:text="@string/change_picture"
+        android:id="@+id/changePicture"
         />
 
 </LinearLayout>
