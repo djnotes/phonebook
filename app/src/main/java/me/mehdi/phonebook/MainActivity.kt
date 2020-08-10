@@ -1,5 +1,6 @@
 package me.mehdi.phonebook
 
+import android.app.Activity
 import android.content.ContentValues
 import android.content.Intent
 import android.database.Cursor
@@ -42,19 +43,21 @@ class MainActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         when(requestCode){
             100 -> {
-                val fullName = data?.getStringExtra("fullname")
-                val phone = data?.getStringExtra("phone")
+                if(resultCode == Activity.RESULT_OK){
+                    val fullName = data?.getStringExtra("fullname")
+                    val phone = data?.getStringExtra("phone")
 
-                val values = ContentValues().apply{
-                    put("fullname", fullName)
-                    put("phone", phone)
-                }
-                val rowId = db.insert("person", null, values)
-                if(rowId != -1L){
-                    Toast.makeText(applicationContext, "ذخیره اطلاعات با موفقیت انجام شد", Toast.LENGTH_LONG).show()
-                }
+                    val values = ContentValues().apply{
+                        put("fullname", fullName)
+                        put("phone", phone)
+                    }
+                    val rowId = db.insert("person", null, values)
+                    if(rowId != -1L){
+                        Toast.makeText(applicationContext, "ذخیره اطلاعات با موفقیت انجام شد", Toast.LENGTH_LONG).show()
+                    }
 
-                updateList()
+                    updateList()
+                }
             }
         }
         super.onActivityResult(requestCode, resultCode, data)
