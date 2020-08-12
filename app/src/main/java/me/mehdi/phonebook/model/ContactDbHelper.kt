@@ -4,10 +4,10 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class ContactDbHelper(context: Context) : SQLiteOpenHelper(context, "contactdb.db", null, 1) {
+class ContactDbHelper(context: Context) : SQLiteOpenHelper(context, "contacts.db", null, 1) {
 
     override fun onCreate(p0: SQLiteDatabase?) {
-        p0?.execSQL("CREATE TABLE person (fullname TEXT, phone TEXT)")
+        p0?.execSQL("CREATE TABLE person  (fullname TEXT, phone TEXT)")
         p0?.execSQL("INSERT INTO person (fullname, phone) VALUES ('Hannan Mousavi', '09121231234')")
     }
 
