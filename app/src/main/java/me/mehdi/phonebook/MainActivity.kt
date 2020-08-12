@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                         Toast.makeText(applicationContext, "ذخیره اطلاعات با موفقیت انجام شد", Toast.LENGTH_LONG).show()
                     }
 
-    updateList()
+                    updateList()
                 }
             }
         }
