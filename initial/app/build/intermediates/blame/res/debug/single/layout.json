@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/johndoe/src/PhoneBook/initial/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_contact.xml",
+        "source": "/home/johndoe/src/PhoneBook/initial/app/src/main/res/layout/activity_add_contact.xml"
+    },
+    {
+        "merged": "/home/johndoe/src/PhoneBook/initial/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/johndoe/src/PhoneBook/initial/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/johndoe/src/PhoneBook/initial/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_item.xml",
+        "source": "/home/johndoe/src/PhoneBook/initial/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/johndoe/src/PhoneBook/initial/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/home/johndoe/src/PhoneBook/initial/app/src/main/res/layout/activity_profile.xml"
+    }
+]
