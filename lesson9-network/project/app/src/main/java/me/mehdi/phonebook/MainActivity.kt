@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
 
             updateList()
 
-            mSwipeRefresh.isRefreshing = false
+
         }
 
         binding.fab.setOnClickListener {

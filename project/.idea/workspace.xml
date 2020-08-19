@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f0fa41e3-b325-4340-ab33-24c477a6a175" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_8_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ContactAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ContactAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_19" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_R" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,18 +43,30 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1gBce9kS7WmXW5Uz8dRlaY1PjXS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_R" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-19T14:15:05.892Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/.local/AndroidSdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -51,7 +81,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -115,5 +145,71 @@
       <updated>1597591518763</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="755" y="381" width="399" height="351" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1597846161459">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="755" y="381" width="399" height="351" key="#com.intellij.debugger.actions.ViewTextAction/0.27.1920.1053@0.27.1920.1053" timestamp="1597846161459" />
+    <state x="676" y="207" width="557" height="707" key="#com.intellij.ide.util.MemberChooser" timestamp="1597843763926">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="676" y="207" width="557" height="707" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1597843763926" />
+    <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog" timestamp="1597845565203">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597845565203" />
+    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2" timestamp="1597848666034">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1597848666034" />
+    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl" timestamp="1597848512910">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1597848512910" />
+    <state width="1858" height="260" key="GridCell.Tab.0.bottom" timestamp="1597848921886">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1858" height="260" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597848921886" />
+    <state width="1858" height="260" key="GridCell.Tab.0.center" timestamp="1597848921884">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1858" height="260" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597848921884" />
+    <state width="1858" height="260" key="GridCell.Tab.0.left" timestamp="1597848921881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1858" height="260" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597848921881" />
+    <state width="1858" height="260" key="GridCell.Tab.0.right" timestamp="1597848921885">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1858" height="260" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597848921885" />
+    <state x="100" y="127" width="1720" height="853" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597846830464">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="com.android.tools.idea.avdmanager.AvdListDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597846830464" />
+    <state x="526" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1597838838393">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="526" y="342" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597838838393" />
+    <state x="669" y="455" width="582" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597845315918">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="669" y="455" width="582" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597845315918" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="response.body.string().toString()" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
