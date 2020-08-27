@@ -11,27 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0fa41e3-b325-4340-ab33-24c477a6a175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_osmdroid_osmdroid_android_6_1_8_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/DetailsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MapActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_location_on_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_4_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/focus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/press.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/AddContactActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/AddContactActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ContactAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ContactAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/Contact.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/Contact.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/ContactDbHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/ContactDbHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="resourceFile" />
       </list>
     </option>
@@ -76,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/.local/AndroidSdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson10-map" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson10-recyclerview" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -178,38 +170,42 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="755" y="381" width="399" height="351" key="#com.intellij.debugger.actions.ViewTextAction/0.27.1920.1053@0.27.1920.1053" timestamp="1597846161459" />
-    <state x="676" y="207" width="557" height="707" key="#com.intellij.ide.util.MemberChooser" timestamp="1597843763926">
+    <state x="676" y="207" width="557" height="714" key="#com.intellij.ide.util.MemberChooser" timestamp="1598534712561">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="676" y="207" width="557" height="707" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1597843763926" />
-    <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog" timestamp="1597845565203">
+    <state x="676" y="207" width="557" height="714" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1598534712561" />
+    <state x="643" y="266" width="624" height="582" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598532273458">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597845565203" />
-    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2" timestamp="1598197302773">
+    <state x="643" y="266" width="624" height="582" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1598532273458" />
+    <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog" timestamp="1598535341065">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1598197302773" />
-    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl" timestamp="1598197390907">
+    <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1598535341065" />
+    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2" timestamp="1598535893865">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598197390907" />
-    <state width="1858" height="207" key="GridCell.Tab.0.bottom" timestamp="1598191379803">
+    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1598535893865" />
+    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl" timestamp="1598535780168">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="207" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1598191379803" />
-    <state width="1858" height="207" key="GridCell.Tab.0.center" timestamp="1598191379803">
+    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598535780168" />
+    <state width="1858" height="208" key="GridCell.Tab.0.bottom" timestamp="1598531164457">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="207" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1598191379803" />
-    <state width="1858" height="207" key="GridCell.Tab.0.left" timestamp="1598191379802">
+    <state width="1858" height="208" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164457" />
+    <state width="1858" height="208" key="GridCell.Tab.0.center" timestamp="1598531164456">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="207" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1598191379802" />
-    <state width="1858" height="207" key="GridCell.Tab.0.right" timestamp="1598191379803">
+    <state width="1858" height="208" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164456" />
+    <state width="1858" height="208" key="GridCell.Tab.0.left" timestamp="1598531164456">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="207" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1598191379803" />
+    <state width="1858" height="208" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164456" />
+    <state width="1858" height="208" key="GridCell.Tab.0.right" timestamp="1598531164457">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1858" height="208" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164457" />
     <state x="455" y="226" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1597849570987">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -226,17 +222,17 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="669" y="455" width="582" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597845315918" />
-    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1598191260736">
+    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1598533410673">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598191260736" />
+    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598533410673" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt</url>
-          <line>74</line>
+          <line>79</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
