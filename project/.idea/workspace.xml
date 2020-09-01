@@ -6,23 +6,90 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0fa41e3-b325-4340-ab33-24c477a6a175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_4_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ListAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_selector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/focus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/press.xml" afterDir="false" />
+    <list default="true" id="f0fa41e3-b325-4340-ab33-24c477a6a175" name="Default Changelist" comment="Added">
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/androidTest/java/me/mehdi/phonebook/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/AddContactActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/DetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/ListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/MapActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/ProfileActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/model/AppDb.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/model/Contact.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/java/me/mehdi/phonebook/model/ContactDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bg_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/bird7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/focus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/halcyon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/ic_baseline_location_on_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/newyork.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/drawable/press.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/layout/activity_add_contact.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/layout/activity_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/layout/activity_map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/main/res/xml/network_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/app/src/test/java/me/mehdi/phonebook/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson11-roomdb/project/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_2_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_migration_2_2_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_2_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/AppDb.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/ContactDao.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/ContactAdapter.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/Contact.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/Contact.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/model/ContactDbHelper.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +112,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -63,12 +130,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_R" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-19T14:15:05.892Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_API_24" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-01T12:15:46.141Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/.local/AndroidSdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson10-recyclerview" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson11-roomdb" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -182,57 +249,57 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="543" y="306" width="824" height="501" key="AndroidCreateResourceFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1598535341065" />
-    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2" timestamp="1598535893865">
+    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2" timestamp="1598974030486">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1598535893865" />
-    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl" timestamp="1598535780168">
+    <state x="350" y="35" width="1210" height="1043" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1598974030486" />
+    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl" timestamp="1598973911746">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598535780168" />
-    <state width="1858" height="208" key="GridCell.Tab.0.bottom" timestamp="1598531164457">
+    <state x="654" y="216" width="601" height="681" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598973911746" />
+    <state width="1858" height="208" key="GridCell.Tab.0.bottom" timestamp="1598968348267">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="208" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164457" />
-    <state width="1858" height="208" key="GridCell.Tab.0.center" timestamp="1598531164456">
+    <state width="1858" height="208" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1598968348267" />
+    <state width="1858" height="208" key="GridCell.Tab.0.center" timestamp="1598968348266">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="208" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164456" />
-    <state width="1858" height="208" key="GridCell.Tab.0.left" timestamp="1598531164456">
+    <state width="1858" height="208" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1598968348266" />
+    <state width="1858" height="208" key="GridCell.Tab.0.left" timestamp="1598968348266">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="208" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164456" />
-    <state width="1858" height="208" key="GridCell.Tab.0.right" timestamp="1598531164457">
+    <state width="1858" height="208" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1598968348266" />
+    <state width="1858" height="208" key="GridCell.Tab.0.right" timestamp="1598968348267">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1858" height="208" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1598531164457" />
+    <state width="1858" height="208" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1598968348267" />
     <state x="455" y="226" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1597849570987">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="455" y="226" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597849570987" />
-    <state x="100" y="127" width="1720" height="853" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597846830464">
+    <state x="100" y="127" width="1720" height="853" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1598972296912">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="100" y="127" width="1720" height="853" key="com.android.tools.idea.avdmanager.AvdListDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597846830464" />
-    <state x="526" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1597838838393">
+    <state x="100" y="127" width="1720" height="853" key="com.android.tools.idea.avdmanager.AvdListDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1598972296912" />
+    <state x="526" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1598962089285">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="526" y="342" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597838838393" />
+    <state x="526" y="342" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1598962089285" />
     <state x="669" y="455" width="582" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597845315918">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="669" y="455" width="582" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597845315918" />
-    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1598533410673">
+    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1598974621145">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598533410673" />
+    <state x="539" y="44" width="840" height="1034" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598974621145" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/mehdi/phonebook/MainActivity.kt</url>
-          <line>79</line>
+          <line>53</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">

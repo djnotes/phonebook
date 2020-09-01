@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Phone Book</string>
+    <string name="you_clicked_me">You clicked me</string>
+    <string name="title">Main Page</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="show_info">نمایش اطلاعات</string>
+    <string name="change_picture">تغییر عکس</string>
+    <string name="you_should_give_storage_access">شما باید برای استفاده از این قابلیت اجازه دسترسی به حافظه خارجی را بدهید</string>
+
+</resources>
